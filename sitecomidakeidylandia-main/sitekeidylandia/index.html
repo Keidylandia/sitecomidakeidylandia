@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagens/logo.png">
+    <style>
+        .vertical {
+          border-left: 1px solid lightgrey;
+          height: 1000px;
+          position:fixed;
+          left: 1025px;top:-40px; 
+        }
+      </style>
+       <style>
+        .vertical2{
+          border-left: 1px solid lightgrey;
+          height: 1000px;
+          position:fixed;
+          left: 300px;top:-40px; 
+        }
+      </style>
+      </head>
+<body>
+  <div class="search">
+    <div class="icon"></div>
+    <div class="input">
+      <input type="text" placeholder="Buscar" id="mysearch">
+    </div>
+    <span class="clear" onclick="document.getElementById('mysearch') .value = ''"></span>
+  </div>
+
+  <script> 
+    const icon = document.querySelector('.icon');
+    const search = document.querySelector('.search');
+    icon.onclick = function(){
+      search.classList.toggle('active')
+    }
+  </script>
+
+  <hr class ="horizontal">
+    <img class ="coisinho" src="imagens/COISINHO.png" alt="coisinho">
+    <a href="index.html"> <img class ="Inicial" src="imagens/homefilll.png" alt="Inicial" > </a>
+    <img class="tortacamarao" src="imagens/torta.png" alt="tortinha">
+   <a href="sites.html"><img class="sitesdereceita" src="imagens/sites.png" alt="sitesdereceita"> </a>
+    <header class="cabecalho">  
+       <h1 class="tituloinicial">Página Inicial</h1>
+       <div class = "vertical"></div>
+       <div class = "vertical2"></div>
+    </header>
+    
+</body>
+</html>
