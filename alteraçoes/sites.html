@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sites de Receitas</title>
+    <link rel="stylesheet" href="stylesites.css">
+    <link rel="icon" href="imagens/logo.png">
+</head>
+<body>
+    <div class="search">
+        <div class="icon"></div>
+        <div class="input">
+          <input type="text" placeholder="Buscar" id="mysearch">
+        </div>
+        <span class="clear" onclick="document.getElementById('mysearch') .value = ''"></span>
+      </div>
+    
+      <script> 
+        const icon = document.querySelector('.icon');
+        const search = document.querySelector('.search');
+        icon.onclick = function(){
+          search.classList.toggle('active')
+        }
+      </script>
+    
+        <img class ="coisinho" src="imagens/COISINHO.png" alt="coisinho">
+      <a href="https://www.tudogostoso.com.br/"> <img class="tudogostoso" src="imagens/tudogostoso.jpg" alt="gostoso"> </a>
+      <a href="https://www.receitadahora.com.br/"> <img class="receitadahora"src="imagens/receitadahora.png" alt="receitadahora"> </a>
+        <a href="index.html"> <img class ="Inicial" src="imagens/homefilll.png" alt="Inicial" > </a>
+       <a href="sites.html"><img class="sitesdereceita" src="imagens/sites.png" alt="sitesdereceita"> </a>
+        <header class="cabecalho">  
+          <div class="container"></div>
+        <div class="container2">
+         <div><h1 class="tituloinicial">Sites de Receitas</h1></div>  
+         </div>
+           <div class = "vertical"></div>
+           <div class = "vertical2"></div>
+        </header>
+    
+
+</body>
+</html>
