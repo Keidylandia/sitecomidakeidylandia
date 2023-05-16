@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="inicialstyle.css">
+    <link rel="icon" href="imagens/logo.png">
+    <script src="https://kit.fontawesome.com/1e879be941.js" crossorigin="anonymous"></script>
+      </head>
+<body>
+  
+
+  
+  <div class="search">
+    <div class="icon"></div>
+    <div class="input">
+     <input type="text" placeholder="Buscar" id="mysearch">
+    </div>
+    <span class="clear" onclick="document.getElementById('mysearch') .value = ''"></span>
+  </div>
+
+  <script> 
+    const icon = document.querySelector('.icon');
+    const search = document.querySelector('.search');
+    icon.onclick = function(){
+      search.classList.toggle('active')
+    }
+  </script>
+  <div class="container">
+    <div><img class="tortacamarao" src="imagens/torta.png" alt="tortinha"></div>
+    <div><img class="tortacamarao2" src="imagens/torta.png" alt="tortinha"></div>
+    <div class="coisinhoo">
+    <img class ="coisinho" src="imagens/COISINHO.png" alt="coisinho">
+    <a href="index.html"></a>
+    </div>
+      <header class="cabecalho">  
+      </div>
+      <div class="paginainicial">
+        <a href="index.html"><h1 class="textoinicial">Página inicial</h1> <i class="fa-solid fa-house"></i></a>
+        </div>
+        <div class="receitasdsit">
+          <a href="sites.html"><h1 class="Sites">Sites</h1> <i class="fa-regular fa-hashtag"></i></a>
+          </div>
+      <div class="container2">
+     
+    </div>
+    </header>
+    
+    <div class="retangulo"></div>
+    <div class="retangulo2"></div>
+    <h1 class="tituloinicial">Página Inicial</h1>
+
+</body>
+</html>
